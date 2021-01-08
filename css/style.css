@@ -80,6 +80,10 @@ body {
   font-weight: bold;
 }
 
+.list a {
+  margin-right: 4px;
+}
+
 .list-horizontal li {
   display: inline-block;
 }
