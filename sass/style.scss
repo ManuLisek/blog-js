@@ -4,6 +4,11 @@
 
 $color-light: #fff;
 $color-dark: #444;
+$color-tag-size-1: #34495e;
+$color-tag-size-2: #8e44ad;
+$color-tag-size-3: #2980b9;
+$color-tag-size-4: #16a085;
+$color-tag-size-5: #c0392b;
 
 $font-logo: "Sacramento", cursive;
 $font-header: "Oswald", sans-serif;
@@ -120,6 +125,9 @@ body {
 
 .post-author {
   font-style: italic;
+  li {
+    list-style-type: none;
+  }
 }
 
 .post-tags {
@@ -127,5 +135,54 @@ body {
 
   p {
     margin: 0 10px 0 0;
+  }
+}
+
+.tag-size-5 {
+  font-size: 35px;
+
+  a {
+    color: $color-tag-size-5;
+  }
+}
+
+.tag-size-4 {
+  font-size: 30px;
+
+  a {
+    color: $color-tag-size-4;
+  }
+}
+
+.tag-size-3 {
+  font-size: 25px;
+
+  a {
+    color: $color-tag-size-3;
+  }
+}
+
+.tag-size-2 {
+  font-size: 20px;
+
+  a {
+    color: $color-tag-size-2;
+  }
+}
+
+.tag-size-1 {
+  font-size: 15px;
+
+  a {
+    color: $color-tag-size-1;
+  }
+}
+
+.list.tags li {
+  display: inline-block;
+
+  a {
+    text-decoration: none;
+    margin-right: 4px;
   }
 }
