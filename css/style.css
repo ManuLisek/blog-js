@@ -106,6 +106,10 @@ body {
   font-style: italic;
 }
 
+.post-author li {
+  list-style-type: none;
+}
+
 .post-tags {
   display: -ms-flexbox;
   display: flex;
@@ -113,5 +117,54 @@ body {
 
 .post-tags p {
   margin: 0 10px 0 0;
+}
+
+.tag-size-5 {
+  font-size: 35px;
+}
+
+.tag-size-5 a {
+  color: #c0392b;
+}
+
+.tag-size-4 {
+  font-size: 30px;
+}
+
+.tag-size-4 a {
+  color: #16a085;
+}
+
+.tag-size-3 {
+  font-size: 25px;
+}
+
+.tag-size-3 a {
+  color: #2980b9;
+}
+
+.tag-size-2 {
+  font-size: 20px;
+}
+
+.tag-size-2 a {
+  color: #8e44ad;
+}
+
+.tag-size-1 {
+  font-size: 15px;
+}
+
+.tag-size-1 a {
+  color: #34495e;
+}
+
+.list.tags li {
+  display: inline-block;
+}
+
+.list.tags li a {
+  text-decoration: none;
+  margin-right: 4px;
 }
 /*# sourceMappingURL=style.css.map */
