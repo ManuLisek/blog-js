@@ -4,11 +4,11 @@
 
 $color-light: #fff;
 $color-dark: #444;
-$color-tag-size-1: #34495e;
-$color-tag-size-2: #8e44ad;
-$color-tag-size-3: #2980b9;
-$color-tag-size-4: #16a085;
-$color-tag-size-5: #c0392b;
+$color-tag-size-1: #c4297e;
+$color-tag-size-2: #9e44ad;
+$color-tag-size-3: #3980b9;
+$color-tag-size-4: #26a085;
+$color-tag-size-5: #d0392b;
 
 $font-logo: "Sacramento", cursive;
 $font-header: "Oswald", sans-serif;
@@ -23,9 +23,9 @@ $font-text: "Source Sans Pro", sans-serif;
 }
 
 body {
-  background: $color-light;
+  background: $color-dark;
   font-family: $font-text;
-  color: $color-dark;
+  color: $color-light;
   font-weight: 300;
   font-size: 16px;
   line-height: 1.7;
@@ -45,7 +45,7 @@ body {
   span {
     text-transform: none;
     font-weight: 400;
-    color: lighten($color-dark, 20%);
+    color: lighten($color-light, 20%);
   }
 }
 
@@ -66,10 +66,10 @@ body {
 
 .sidebar,
 .posts {
-  background: $color-light;
+  background: $color-dark;
   margin-right: 10px;
   padding: 40px;
-  border: 1px solid $color-dark;
+  border: 1px solid $color-light;
   border-radius: 5px;
 }
 
@@ -125,8 +125,13 @@ body {
 
 .post-author {
   font-style: italic;
+
   li {
     list-style-type: none;
+  }
+
+  a {
+    color: $color-light;
   }
 }
 
@@ -185,4 +190,9 @@ body {
     text-decoration: none;
     margin-right: 4px;
   }
+}
+
+ul li a {
+  color: $color-light;
+  text-decoration: none;
 }
